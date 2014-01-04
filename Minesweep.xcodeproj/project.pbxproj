@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42D8EE9716A946BC00AF23B4 /* AppSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D8EE9616A946BC00AF23B4 /* AppSingleton.m */; };
+		42D8EEA816A94D7D00AF23B4 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D8EEA616A94D7D00AF23B4 /* SecondViewController.xib */; };
+		7E84D12616A932DF00FDAC38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E84D12516A932DF00FDAC38 /* UIKit.framework */; };
+		7E84D12816A932DF00FDAC38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E84D12716A932DF00FDAC38 /* Foundation.framework */; };
+		7E84D12A16A932DF00FDAC38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E84D12916A932DF00FDAC38 /* CoreGraphics.framework */; };
+		7E84D13016A932DF00FDAC38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E84D12E16A932DF00FDAC38 /* InfoPlist.strings */; };
+		7E84D13216A932DF00FDAC38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E84D13116A932DF00FDAC38 /* main.m */; };
+		7E84D13616A932DF00FDAC38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E84D13516A932DF00FDAC38 /* AppDelegate.m */; };
+		7E84D13916A932DF00FDAC38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E84D13816A932DF00FDAC38 /* ViewController.m */; };
+		7E84D13C16A932DF00FDAC38 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E84D13A16A932DF00FDAC38 /* ViewController_iPhone.xib */; };
+		7E84D13F16A932DF00FDAC38 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E84D13D16A932DF00FDAC38 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42D8EE9516A946BC00AF23B4 /* AppSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppSingleton.h; path = AppSingleton/AppSingleton.h; sourceTree = "<group>"; };
+		42D8EE9616A946BC00AF23B4 /* AppSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppSingleton.m; path = AppSingleton/AppSingleton.m; sourceTree = "<group>"; };
+		42D8EEA416A94D7D00AF23B4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		42D8EEA516A94D7D00AF23B4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		42D8EEA616A94D7D00AF23B4 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		7E84D12116A932DF00FDAC38 /* Minesweep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minesweep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E84D12516A932DF00FDAC38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E84D12716A932DF00FDAC38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E84D12916A932DF00FDAC38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E84D12D16A932DF00FDAC38 /* Minesweep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Minesweep-Info.plist"; sourceTree = "<group>"; };
+		7E84D12F16A932DF00FDAC38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E84D13116A932DF00FDAC38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E84D13316A932DF00FDAC38 /* Minesweep-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Minesweep-Prefix.pch"; sourceTree = "<group>"; };
+		7E84D13416A932DF00FDAC38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E84D13516A932DF00FDAC38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E84D13716A932DF00FDAC38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E84D13816A932DF00FDAC38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E84D13B16A932DF00FDAC38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		7E84D13E16A932DF00FDAC38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E84D11E16A932DF00FDAC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E84D12616A932DF00FDAC38 /* UIKit.framework in Frameworks */,
+				7E84D12816A932DF00FDAC38 /* Foundation.framework in Frameworks */,
+				7E84D12A16A932DF00FDAC38 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42D8EEA316A94D6900AF23B4 /* Second View */ = {
+			isa = PBXGroup;
+			children = (
+				42D8EEA416A94D7D00AF23B4 /* SecondViewController.h */,
+				42D8EEA516A94D7D00AF23B4 /* SecondViewController.m */,
+				42D8EEA616A94D7D00AF23B4 /* SecondViewController.xib */,
+			);
+			name = "Second View";
+			sourceTree = "<group>";
+		};
+		7E84D11616A932DE00FDAC38 = {
+			isa = PBXGroup;
+			children = (
+				7E84D12B16A932DF00FDAC38 /* Minesweep */,
+				7E84D12416A932DF00FDAC38 /* Frameworks */,
+				7E84D12216A932DF00FDAC38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E84D12216A932DF00FDAC38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E84D12116A932DF00FDAC38 /* Minesweep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E84D12416A932DF00FDAC38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E84D12516A932DF00FDAC38 /* UIKit.framework */,
+				7E84D12716A932DF00FDAC38 /* Foundation.framework */,
+				7E84D12916A932DF00FDAC38 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E84D12B16A932DF00FDAC38 /* Minesweep */ = {
+			isa = PBXGroup;
+			children = (
+				42D8EEA316A94D6900AF23B4 /* Second View */,
+				7E84D13416A932DF00FDAC38 /* AppDelegate.h */,
+				7E84D13516A932DF00FDAC38 /* AppDelegate.m */,
+				7E84D14516A938A400FDAC38 /* First View */,
+				7E84D12C16A932DF00FDAC38 /* Supporting Files */,
+				42D8EE9516A946BC00AF23B4 /* AppSingleton.h */,
+				42D8EE9616A946BC00AF23B4 /* AppSingleton.m */,
+			);
+			path = Minesweep;
+			sourceTree = "<group>";
+		};
+		7E84D12C16A932DF00FDAC38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E84D12D16A932DF00FDAC38 /* Minesweep-Info.plist */,
+				7E84D12E16A932DF00FDAC38 /* InfoPlist.strings */,
+				7E84D13116A932DF00FDAC38 /* main.m */,
+				7E84D13316A932DF00FDAC38 /* Minesweep-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E84D14516A938A400FDAC38 /* First View */ = {
+			isa = PBXGroup;
+			children = (
+				7E84D13716A932DF00FDAC38 /* ViewController.h */,
+				7E84D13816A932DF00FDAC38 /* ViewController.m */,
+				7E84D13A16A932DF00FDAC38 /* ViewController_iPhone.xib */,
+				7E84D13D16A932DF00FDAC38 /* ViewController_iPad.xib */,
+			);
+			name = "First View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E84D12016A932DF00FDAC38 /* Minesweep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E84D14216A932DF00FDAC38 /* Build configuration list for PBXNativeTarget "Minesweep" */;
+			buildPhases = (
+				7E84D11D16A932DF00FDAC38 /* Sources */,
+				7E84D11E16A932DF00FDAC38 /* Frameworks */,
+				7E84D11F16A932DF00FDAC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minesweep;
+			productName = Minesweep;
+			productReference = 7E84D12116A932DF00FDAC38 /* Minesweep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E84D11816A932DE00FDAC38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7E84D11B16A932DE00FDAC38 /* Build configuration list for PBXProject "Minesweep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E84D11616A932DE00FDAC38;
+			productRefGroup = 7E84D12216A932DF00FDAC38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E84D12016A932DF00FDAC38 /* Minesweep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E84D11F16A932DF00FDAC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E84D13016A932DF00FDAC38 /* InfoPlist.strings in Resources */,
+				7E84D13C16A932DF00FDAC38 /* ViewController_iPhone.xib in Resources */,
+				7E84D13F16A932DF00FDAC38 /* ViewController_iPad.xib in Resources */,
+				42D8EEA816A94D7D00AF23B4 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E84D11D16A932DF00FDAC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E84D13216A932DF00FDAC38 /* main.m in Sources */,
+				7E84D13616A932DF00FDAC38 /* AppDelegate.m in Sources */,
+				7E84D13916A932DF00FDAC38 /* ViewController.m in Sources */,
+				42D8EE9716A946BC00AF23B4 /* AppSingleton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E84D12E16A932DF00FDAC38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E84D12F16A932DF00FDAC38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E84D13A16A932DF00FDAC38 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E84D13B16A932DF00FDAC38 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		7E84D13D16A932DF00FDAC38 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E84D13E16A932DF00FDAC38 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E84D14016A932DF00FDAC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E84D14116A932DF00FDAC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E84D14316A932DF00FDAC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minesweep/Minesweep-Prefix.pch";
+				INFOPLIST_FILE = "Minesweep/Minesweep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E84D14416A932DF00FDAC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minesweep/Minesweep-Prefix.pch";
+				INFOPLIST_FILE = "Minesweep/Minesweep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E84D11B16A932DE00FDAC38 /* Build configuration list for PBXProject "Minesweep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E84D14016A932DF00FDAC38 /* Debug */,
+				7E84D14116A932DF00FDAC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E84D14216A932DF00FDAC38 /* Build configuration list for PBXNativeTarget "Minesweep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E84D14316A932DF00FDAC38 /* Debug */,
+				7E84D14416A932DF00FDAC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E84D11816A932DE00FDAC38 /* Project object */;
+}
